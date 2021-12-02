@@ -1,0 +1,14 @@
+{
+  "name": "manage-roles",
+  "version": "1.0.0",
+  "description": "This nodejs script allows to view the account assigned to each role in a `TimelockController` instance, and to prepare a batch action to revoke the `EXECUTOR` role to a subset of executors.",
+  "main": "roles.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.4.5",
+    "node-fetch": "^2.6.1",
+    "p-throttle": "^4.1.1"
+  }
+}
